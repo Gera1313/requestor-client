@@ -6,6 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentence Generator</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+        }
+        .output {
+          margin-top: 20px;
+          font-size: 1.2em;
+          color: blue;
+        }
+      </style>
 </head>
 
 <body>
@@ -13,8 +24,11 @@
     <p>Please enter a number to select a sentence:</p>
     <input type="text" id="inputField" placeholder="Enter a number">
     <button onclick="displaySentence()">Submit</button>
-</body>
+
+    <div class="output" id="output"></div>
 
 <!-- Links the JS file with this file -->
 <script src="script.js"></script>
+
+</body>
 </html>

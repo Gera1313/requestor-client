@@ -1,4 +1,4 @@
-function displayPhrase() {
+function displaySentence() {
   const input = document.getElementById("inputField").value;
   const outputDiv = document.getElementById("output");
   let phrase = "";
